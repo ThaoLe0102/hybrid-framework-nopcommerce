@@ -1,0 +1,653 @@
+<html>
+<head>
+<title>TestNG:  Run on Firefox</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Run on Firefox</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 15 01:30:08 ICT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>102 seconds (102995 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_02_Login.Login_01_Empty_Data()'><b>Login_01_Empty_Data</b><br>Test class: com.nopcommerce.user.Feature_02_Login<br/>
+<a href="#Output-1007264592" onClick='toggleBox("Output-1007264592", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1007264592" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1007264592">
+[2023-05-15 01:31:15,070] Login_01 - Step 01: Click to 'Login' link
+<br><br/>
+[2023-05-15 01:31:15,548] Login_01 - Step 02: Click to 'Login' button
+<br><br/>
+[2023-05-15 01:31:15,909] Login_01 - Step 03: Verify error message at Email textbox is displayed
+<br><br/>
+[2023-05-15 01:31:15,992]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.user.Feature_02_Login@4b8d604b</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_02_Login.Login_02_Invalid_Email()'><b>Login_02_Invalid_Email</b><br>Test class: com.nopcommerce.user.Feature_02_Login<br/>
+<a href="#Output-1664479306" onClick='toggleBox("Output-1664479306", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1664479306" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1664479306">
+[2023-05-15 01:31:15,995] Login_02 - Step 01: Click to 'Login' link
+<br><br/>
+[2023-05-15 01:31:16,475] Login_02 - Step 02: Enter to Invalid Email textbox with value abc@123
+<br><br/>
+[2023-05-15 01:31:16,610] Login_02 - Step 03: Enter to Password textbox with value abc1234
+<br><br/>
+[2023-05-15 01:31:16,741] Login_02 - Step 04: Click to 'Login' button
+<br><br/>
+[2023-05-15 01:31:17,248] Login_02 - Step 05: Verify Wrong Email message is displayed
+<br><br/>
+[2023-05-15 01:31:17,350]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Feature_02_Login@4b8d604b</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_02_Login.Login_03_Login_With_Unregistered_Email()'><b>Login_03_Login_With_Unregistered_Email</b><br>Test class: com.nopcommerce.user.Feature_02_Login<br/>
+<a href="#Output-833308761" onClick='toggleBox("Output-833308761", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-833308761" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-833308761">
+[2023-05-15 01:31:17,354] Login_03 - Step 01: Click to 'Login' link
+<br><br/>
+[2023-05-15 01:31:17,841] Login_03 - Step 02: Enter to Invalid Email textbox with value abc123@gmail.com
+<br><br/>
+[2023-05-15 01:31:17,987] Login_03 - Step 03: Enter to Password textbox with value abc1234
+<br><br/>
+[2023-05-15 01:31:18,111] Login_03 - Step 04: Click to 'Login' button
+<br><br/>
+[2023-05-15 01:31:18,540] Login_03 - Step 05: Verify error login message is displayed
+<br><br/>
+[2023-05-15 01:31:18,625]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Feature_02_Login@4b8d604b</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_02_Login.Login_04_Login_With_Existing_Email_And_Not_Input_To_Password()'><b>Login_04_Login_With_Existing_Email_And_Not_Input_To_Password</b><br>Test class: com.nopcommerce.user.Feature_02_Login<br/>
+<a href="#Output-684619244" onClick='toggleBox("Output-684619244", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-684619244" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-684619244">
+[2023-05-15 01:31:18,628] Login_04 - Step 01: Click to 'Login' link
+<br><br/>
+[2023-05-15 01:31:19,102] Login_04 - Step 02: Not enter to Invalid Email textbox with value abc4483@gmail.com
+<br><br/>
+[2023-05-15 01:31:19,246] Login_04 - Step 03: Click to 'Login' button
+<br><br/>
+[2023-05-15 01:31:19,684] Login_04 - Step 04: Verify Wrong Email message is displayed
+<br><br/>
+[2023-05-15 01:31:19,796]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Feature_02_Login@4b8d604b</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_02_Login.Login_05_Login_With_Existing_Email_And_Incorrect_Password()'><b>Login_05_Login_With_Existing_Email_And_Incorrect_Password</b><br>Test class: com.nopcommerce.user.Feature_02_Login<br/>
+<a href="#Output-2102224373" onClick='toggleBox("Output-2102224373", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2102224373" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2102224373">
+[2023-05-15 01:31:19,798] Login_05 - Step 01: Click to 'Login' link
+<br><br/>
+[2023-05-15 01:31:20,284] Login_05 - Step 02: Enter to Invalid Email textbox with value abc4483@gmail.com
+<br><br/>
+[2023-05-15 01:31:20,430] Login_05 - Step 03: Enter to Password textbox with value 1234
+<br><br/>
+[2023-05-15 01:31:20,552] Login_05 - Step 04: Click to 'Login' button
+<br><br/>
+[2023-05-15 01:31:21,123] Login_05 - Step 05: Verify Wrong Email message is displayed
+<br><br/>
+[2023-05-15 01:31:21,230]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Feature_02_Login@4b8d604b</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_02_Login.Login_06_Login_Success()'><b>Login_06_Login_Success</b><br>Test class: com.nopcommerce.user.Feature_02_Login<br/>
+<a href="#Output-83812683" onClick='toggleBox("Output-83812683", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-83812683" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-83812683">
+[2023-05-15 01:31:21,235] Login_05 - Step 01: Click to 'Login' link
+<br><br/>
+[2023-05-15 01:31:21,717] Login_05 - Step 02: Enter to Invalid Email textbox with value abc4483@gmail.com
+<br><br/>
+[2023-05-15 01:31:21,924] Login_05 - Step 03: Enter to Password textbox with value abc1234
+<br><br/>
+[2023-05-15 01:31:22,042] Login_05 - Step 04: Click to 'Login' button
+<br><br/>
+[2023-05-15 01:31:24,743] Login_05 - Step 05: Verify My Account link is displayed
+<br><br/>
+[2023-05-15 01:31:24,890]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.nopcommerce.user.Feature_02_Login@4b8d604b</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_03_My_Account.My_Account_01_Customer_Info()'><b>My_Account_01_Customer_Info</b><br>Test class: com.nopcommerce.user.Feature_03_My_Account<br/>
+<a href="#Output-776178157" onClick='toggleBox("Output-776178157", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-776178157" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-776178157">
+[2023-05-15 01:30:51,437] My_Account_01 - Step 01: Click to My Account link
+<br><br/>
+[2023-05-15 01:30:52,447] My_Account_01 - Step 02: Choose Female Radio button
+<br><br/>
+[2023-05-15 01:30:52,755] My_Account_01 - Step 03: Input to FirstName Textbox with value = Jerry
+<br><br/>
+[2023-05-15 01:30:52,896] My_Account_01 - Step 04: Input to LastName Textbox with value = Tom
+<br><br/>
+[2023-05-15 01:30:53,021] My_Account_01 - Step 05: Choose Day dropdown with value = 10
+<br><br/>
+[2023-05-15 01:30:53,349] My_Account_01 - Step 06: Choose Day dropdown with value = July
+<br><br/>
+[2023-05-15 01:30:53,682] My_Account_01 - Step 07: Choose Day dropdown with value = 1997
+<br><br/>
+[2023-05-15 01:30:54,029] My_Account_01 - Step 08: Input to Email Textbox with value = automation123@gmail.com
+<br><br/>
+[2023-05-15 01:30:54,167] My_Account_01 - Step 09: Input to Company Name Textbox with value = American
+<br><br/>
+[2023-05-15 01:30:54,291] My_Account_01 - Step 10: Click to 'Save' button
+<br><br/>
+[2023-05-15 01:30:56,781] My_Account_01 - Step 11: Verify status of Radio Button
+<br><br/>
+[2023-05-15 01:30:56,866]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:30:56,866] My_Account_01 - Step 12: Verify value text of FirstName Textbox
+<br><br/>
+[2023-05-15 01:30:56,948]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:30:56,948] My_Account_01 - Step 13: Verify value text of LastName Textbox
+<br><br/>
+[2023-05-15 01:30:57,025]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:30:57,026] My_Account_01 - Step 14: Verify value text of Day Dropdown
+<br><br/>
+[2023-05-15 01:30:57,154]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:30:57,154] My_Account_01 - Step 15: Verify value text of Month Dropdown
+<br><br/>
+[2023-05-15 01:30:57,251]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:30:57,251] My_Account_01 - Step 16: Verify value text of Year Dropdown
+<br><br/>
+[2023-05-15 01:30:57,564]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:30:57,564] My_Account_01 - Step 17: Verify value text of Email Textbox
+<br><br/>
+[2023-05-15 01:30:57,630]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:30:57,630] My_Account_01 - Step 18: Verify value text of Company Name Textbox
+<br><br/>
+[2023-05-15 01:30:57,690]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.nopcommerce.user.Feature_03_My_Account@5e7cd6cc</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_03_My_Account.My_Account_02_Address()'><b>My_Account_02_Address</b><br>Test class: com.nopcommerce.user.Feature_03_My_Account<br/>
+<a href="#Output-48042118" onClick='toggleBox("Output-48042118", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-48042118" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-48042118">
+[2023-05-15 01:30:57,693] My_Account_02 - Step 01: Click to Address link
+<br><br/>
+[2023-05-15 01:30:58,173] My_Account_02 - Step 02: Click to 'Add new' button
+<br><br/>
+[2023-05-15 01:31:00,676] My_Account_02 - Step 03: Input to FirstName Textbox with value = Jerry
+<br><br/>
+[2023-05-15 01:31:00,818] My_Account_02 - Step 04: Input to LastName Textbox with value = Tom
+<br><br/>
+[2023-05-15 01:31:00,947] My_Account_02 - Step 05: Input to Email Textbox with value = automation123@gmail.com
+<br><br/>
+[2023-05-15 01:31:01,080] My_Account_02 - Step 06: Input to Company Name Textbox with value = American
+<br><br/>
+[2023-05-15 01:31:01,190] My_Account_02 - Step 07: Choose Country dropdown with value = Viet Nam
+<br><br/>
+[2023-05-15 01:31:01,524] My_Account_02 - Step 08: Choose State / province dropdown with value = Other
+<br><br/>
+[2023-05-15 01:31:01,622] My_Account_02 - Step 09: Input to City Textbox with value = Ha Noi
+<br><br/>
+[2023-05-15 01:31:01,721] My_Account_02 - Step 10: Input to Address1 Textbox with value = 15 Truong Dinh
+<br><br/>
+[2023-05-15 01:31:01,832] My_Account_02 - Step 11: Input to Address2 Textbox with value = 2 Pham Van Bach
+<br><br/>
+[2023-05-15 01:31:01,944] My_Account_02 - Step 12: Input to Zip / postal code Textbox with value = 55000
+<br><br/>
+[2023-05-15 01:31:02,054] My_Account_02 - Step 13: Input to Phone number Textbox with value = 012345678
+<br><br/>
+[2023-05-15 01:31:02,150] My_Account_02 - Step 14: Input to Fax number Textbox with value = 097412345
+<br><br/>
+[2023-05-15 01:31:02,262] My_Account_02 - Step 15: Click to 'Save' button
+<br><br/>
+[2023-05-15 01:31:05,029] My_Account_02 - Step 16: Verify value text of FirstName and LastName
+<br><br/>
+[2023-05-15 01:31:05,102]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:31:05,103] My_Account_02 - Step 18: Verify value text of Email 
+<br><br/>
+[2023-05-15 01:31:05,151]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:31:05,151] My_Account_02 - Step 19: Verify value text of Company Name
+<br><br/>
+[2023-05-15 01:31:05,193]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:31:05,193] My_Account_02 - Step 20: Verify value text of Country 
+<br><br/>
+[2023-05-15 01:31:05,241]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:31:05,241] My_Account_02 - Step 22: Verify value text of City and Zip
+<br><br/>
+[2023-05-15 01:31:05,285]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:31:05,285] My_Account_02 - Step 23: Verify value text of Address1
+<br><br/>
+[2023-05-15 01:31:05,333]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:31:05,333] My_Account_02 - Step 24: Verify value text of Address2
+<br><br/>
+[2023-05-15 01:31:05,379]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:31:05,379] My_Account_02 - Step 26: Verify value text of Phone number 
+<br><br/>
+[2023-05-15 01:31:05,428]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:31:05,428] My_Account_02 - Step 27: Verify value text of Fax number
+<br><br/>
+[2023-05-15 01:31:05,489]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.nopcommerce.user.Feature_03_My_Account@5e7cd6cc</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_01_Register.Register_01_Empty_Data()'><b>Register_01_Empty_Data</b><br>Test class: com.nopcommerce.user.Feature_01_Register<br/>
+<a href="#Output-344751179" onClick='toggleBox("Output-344751179", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-344751179" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-344751179">
+[2023-05-15 01:30:25,887] Register_01 - Step 01: Click to 'Register' link
+<br><br/>
+[2023-05-15 01:30:27,122] Register_01 - Step 02: Click to 'Register' button
+<br><br/>
+[2023-05-15 01:30:27,496] Register - Step 03: Verify error message at FirstName textbox is displayed
+<br><br/>
+[2023-05-15 01:30:27,566]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:30:27,566] Register - Step 04: Verify error message at LastName textbox is displayed
+<br><br/>
+[2023-05-15 01:30:27,609]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:30:27,609] Register - Step 05: Verify error message at Email textbox is displayed
+<br><br/>
+[2023-05-15 01:30:27,670]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:30:27,670] Register - Step 06: Verify error message at Password textbox is displayed
+<br><br/>
+[2023-05-15 01:30:27,717]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[2023-05-15 01:30:27,717] Register - Step 07: Verify error message at  Confirm Password textbox is displayed
+<br><br/>
+[2023-05-15 01:30:27,794]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Feature_01_Register@5fb759d6</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_01_Register.Register_02_Invalid_Email()'><b>Register_02_Invalid_Email</b><br>Test class: com.nopcommerce.user.Feature_01_Register<br/>
+<a href="#Output-1485179287" onClick='toggleBox("Output-1485179287", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1485179287" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1485179287">
+[2023-05-15 01:30:27,800] Register_02 - Step 01: Click to Register link
+<br><br/>
+[2023-05-15 01:30:28,301] Register_02 - Step 02: Enter to FirstName textbox with value automation
+<br><br/>
+[2023-05-15 01:30:28,450] Register_02 - Step 03: Enter to LastName textbox with value FC
+<br><br/>
+[2023-05-15 01:30:28,568] Register_02 - Step 04: Enter to Invalid Email textbox with value abc@123
+<br><br/>
+[2023-05-15 01:30:28,687] Register_02 - Step 05: Enter to Password textbox with value abc1234
+<br><br/>
+[2023-05-15 01:30:28,792] Register_02 - Step 06: Enter to Confirm Password textbox with value abc1234
+<br><br/>
+[2023-05-15 01:30:28,892] Register_02 - Step 06: Click to 'Register' button
+<br><br/>
+[2023-05-15 01:30:29,381] Register_02 - Step 05: Verify error message at Email textbox is displayed
+<br><br/>
+[2023-05-15 01:30:29,500]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Feature_01_Register@5fb759d6</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_01_Register.Register_03_Success()'><b>Register_03_Success</b><br>Test class: com.nopcommerce.user.Feature_01_Register<br/>
+<a href="#Output-1730465260" onClick='toggleBox("Output-1730465260", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1730465260" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1730465260">
+[2023-05-15 01:30:29,503] Register_03 - Step 01: Navigate to 'Register' Page
+<br><br/>
+[2023-05-15 01:30:29,938] Register_03 - Step 02: Enter to Firstname textbox with value is'automation'
+<br><br/>
+[2023-05-15 01:30:30,084] Register_03 - Step 03: Enter to Lastname textbox with value is'FC'
+<br><br/>
+[2023-05-15 01:30:30,208] Register_03 - Step 04: Enter to Email textbox with value is'abc5344@gmail.com'
+<br><br/>
+[2023-05-15 01:30:30,337] Register_03 - Step 05: Enter to Password textbox with value is'abc1234'
+<br><br/>
+[2023-05-15 01:30:30,451] Register_03 - Step 06: Enter to ConfirmPassword textbox with value is'abc1234'
+<br><br/>
+[2023-05-15 01:30:30,563] Register_03 - Step 07: Click to 'Register' button
+<br><br/>
+[2023-05-15 01:30:31,373] Register_03 - Step 08: Verify Register success message is displayed
+<br><br/>
+[2023-05-15 01:30:31,478]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Feature_01_Register@5fb759d6</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_01_Register.Register_04_Existing_Email()'><b>Register_04_Existing_Email</b><br>Test class: com.nopcommerce.user.Feature_01_Register<br/>
+<a href="#Output-373682836" onClick='toggleBox("Output-373682836", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-373682836" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-373682836">
+[2023-05-15 01:30:31,482] Register_04 - Step 01: Navigate to 'Register' Page
+<br><br/>
+[2023-05-15 01:30:31,921] Register_04 - Step 02: Enter to FirstName textbox with value automation
+<br><br/>
+[2023-05-15 01:30:32,076] Register_04 - Step 03: Enter to LastName textbox with value FC
+<br><br/>
+[2023-05-15 01:30:32,200] Register_04 - Step 04: Enter to Existing  Email textbox with value abc5344@gmail.com
+<br><br/>
+[2023-05-15 01:30:32,318] Register_04 - Step 05: Enter to Password textbox with value abc1234
+<br><br/>
+[2023-05-15 01:30:32,432] Register_04 - Step 06: Enter to Confirm Password textbox with value abc1234
+<br><br/>
+[2023-05-15 01:30:32,522] Register_04 - Step 06: Click to 'Register' button
+<br><br/>
+[2023-05-15 01:30:33,201] Register_04 - Step 05: Verify error existing Email message is displayed
+<br><br/>
+[2023-05-15 01:30:33,300]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Feature_01_Register@5fb759d6</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_01_Register.Register_05_Password_Less_Than_6_Charts()'><b>Register_05_Password_Less_Than_6_Charts</b><br>Test class: com.nopcommerce.user.Feature_01_Register<br/>
+<a href="#Output-1839923673" onClick='toggleBox("Output-1839923673", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1839923673" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1839923673">
+[2023-05-15 01:30:33,302] Register_05 - Step 01: Navigate to 'Register' Page
+<br><br/>
+[2023-05-15 01:30:33,801] Register_05 - Step 02: Enter to FirstName textbox with value automation
+<br><br/>
+[2023-05-15 01:30:33,957] Register_05 - Step 03: Enter to LastName textbox with value FC
+<br><br/>
+[2023-05-15 01:30:34,075] Register_05 - Step 04: Enter to Existing  Email textbox with value abc5344@gmail.com
+<br><br/>
+[2023-05-15 01:30:34,185] Register_05 - Step 05: Enter to Password textbox with value 1234
+<br><br/>
+[2023-05-15 01:30:34,286] Register_05 - Step 06: Enter to Confirm Password textbox with value 1234
+<br><br/>
+[2023-05-15 01:30:34,404] Register_05 - Step 06: Click to 'Register' button
+<br><br/>
+[2023-05-15 01:30:34,721] Register_05 - Step 05: Verify error message at Password textbox is displayed
+<br><br/>
+[2023-05-15 01:30:34,806]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Feature_01_Register@5fb759d6</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_01_Register.Register_06_Invalid_Confirm_Password()'><b>Register_06_Invalid_Confirm_Password</b><br>Test class: com.nopcommerce.user.Feature_01_Register<br/>
+<a href="#Output-1917513667" onClick='toggleBox("Output-1917513667", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1917513667" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1917513667">
+[2023-05-15 01:30:34,811] Register_06 - Step 01: Navigate to 'Register' Page
+<br><br/>
+[2023-05-15 01:30:35,248] Register_06 - Step 02: Enter to FirstName textbox with value automation
+<br><br/>
+[2023-05-15 01:30:35,409] Register_06 - Step 03: Enter to LastName textbox with value FC
+<br><br/>
+[2023-05-15 01:30:35,540] Register_06 - Step 04: Enter to Existing  Email textbox with value abc5344@gmail.com
+<br><br/>
+[2023-05-15 01:30:35,665] Register_06 - Step 05: Enter to Password textbox with value abc1234
+<br><br/>
+[2023-05-15 01:30:35,756] Register_06 - Step 06: Enter to Confirm Password textbox with value 1234
+<br><br/>
+[2023-05-15 01:30:35,866] Register_06 - Step 06: Click to 'Register' button
+<br><br/>
+[2023-05-15 01:30:36,668] Register_06 - Step 05: Verify error message at Confirm Password textbox is displayed
+<br><br/>
+[2023-05-15 01:30:36,725]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Feature_01_Register@5fb759d6</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_04_Search.Search_01_Search_With_Empty_Data()'><b>Search_01_Search_With_Empty_Data</b><br>Test class: com.nopcommerce.user.Feature_04_Search<br/>
+<a href="#Output-1825112984" onClick='toggleBox("Output-1825112984", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1825112984" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1825112984">
+[2023-05-15 01:31:44,306] Search_01 - Step 01: Click to 'Search' button
+<br><br/>
+[2023-05-15 01:31:44,856] Search_01 - Step 02: Verify Error Message
+<br><br/>
+[2023-05-15 01:31:44,953]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.user.Feature_04_Search@68c9d179</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_04_Search.Search_02_Search_With_Data_That_Does_Not_Exist()'><b>Search_02_Search_With_Data_That_Does_Not_Exist</b><br>Test class: com.nopcommerce.user.Feature_04_Search<br/>
+<a href="#Output-344682389" onClick='toggleBox("Output-344682389", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-344682389" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-344682389">
+[2023-05-15 01:31:44,955] Search_02 - Step 01: Input data that doesn't exist to Search textbox
+<br><br/>
+[2023-05-15 01:31:45,102] Search_02 - Step 02: Click to 'Search' button
+<br><br/>
+[2023-05-15 01:31:45,620] Search_02 - Step 03: Verify Error Message
+<br><br/>
+[2023-05-15 01:31:45,718]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.user.Feature_04_Search@68c9d179</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_04_Search.Search_03_Search_With_Relative_Name()'><b>Search_03_Search_With_Relative_Name</b><br>Test class: com.nopcommerce.user.Feature_04_Search<br/>
+<a href="#Output-1415611350" onClick='toggleBox("Output-1415611350", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1415611350" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1415611350">
+[2023-05-15 01:31:45,720] Search_03 - Step 01: Input relative data to Search textbox
+<br><br/>
+[2023-05-15 01:31:45,857] Search_03 - Step 02: Click to 'Search' button
+<br><br/>
+[2023-05-15 01:31:46,439] Search_03 - Step 03: Verify Number of dispayed product is 2
+<br><br/>
+[2023-05-15 01:31:46,517]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.user.Feature_04_Search@68c9d179</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_04_Search.Search_04_Search_With_Absolute_Name()'><b>Search_04_Search_With_Absolute_Name</b><br>Test class: com.nopcommerce.user.Feature_04_Search<br/>
+<a href="#Output-228035257" onClick='toggleBox("Output-228035257", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-228035257" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-228035257">
+[2023-05-15 01:31:46,519] Search_04 - Step 01: Input absolute data to Search textbox
+<br><br/>
+[2023-05-15 01:31:46,662] Search_04 - Step 02: Click to 'Search' button
+<br><br/>
+[2023-05-15 01:31:47,201] Search_04 - Step 03: Verify Number of dispayed product is 1
+<br><br/>
+[2023-05-15 01:31:47,326]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.user.Feature_04_Search@68c9d179</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_04_Search.Search_05_Search_Advance_With_Parent_Categories()'><b>Search_05_Search_Advance_With_Parent_Categories</b><br>Test class: com.nopcommerce.user.Feature_04_Search<br/>
+<a href="#Output-1958168955" onClick='toggleBox("Output-1958168955", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1958168955" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1958168955">
+[2023-05-15 01:31:47,328] Search_05 - Step 01: Input valid data to Search textbox
+<br><br/>
+[2023-05-15 01:31:47,507] Search_05 - Step 02: Check to Advanced search checkbox
+<br><br/>
+[2023-05-15 01:31:47,821] Search_05 - Step 03: Choose Catogory dropdown
+<br><br/>
+[2023-05-15 01:31:48,134] Search_05 - Step 04: Click to 'Search' button
+<br><br/>
+[2023-05-15 01:31:48,604] Search_05 - Step 05: Verify Error Message
+<br><br/>
+[2023-05-15 01:31:48,706]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Feature_04_Search@68c9d179</td></tr>
+<tr>
+<td title='com.nopcommerce.user.Feature_04_Search.Search_06_Search_Advance_With_Sub_Categories()'><b>Search_06_Search_Advance_With_Sub_Categories</b><br>Test class: com.nopcommerce.user.Feature_04_Search<br/>
+<a href="#Output-1015178392" onClick='toggleBox("Output-1015178392", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1015178392" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1015178392">
+[2023-05-15 01:31:48,708] Search_06 - Step 01: Input valid data to Search textbox
+<br><br/>
+[2023-05-15 01:31:48,855] Search_06 - Step 02: Check to Advanced search checkbox
+<br><br/>
+[2023-05-15 01:31:48,936] Search_05 - Step 03: Choose Catogory dropdown
+<br><br/>
+[2023-05-15 01:31:49,017] Search_06 - Step 02: Check to Automatically search sub categories checkbox
+<br><br/>
+[2023-05-15 01:31:49,307] Search_05 - Step 04: Click to 'Search' button
+<br><br/>
+[2023-05-15 01:31:49,807] Search_06 - Step 05: Verify Number of dispayed product is 1
+<br><br/>
+[2023-05-15 01:31:49,899]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.user.Feature_04_Search@68c9d179</td></tr>
+</table><p>
+</body>
+</html>

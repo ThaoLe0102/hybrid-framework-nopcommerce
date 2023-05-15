@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Firefox"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="14.051">
+  <properties />
+  
+  
+            <testcase name="My_Account_01_Customer_Info" time="6.254" classname="com.nopcommerce.user.Feature_03_My_Account" />
+                <testcase name="My_Account_02_Address" time="7.797" classname="com.nopcommerce.user.Feature_03_My_Account" />
+      
+</testsuite>

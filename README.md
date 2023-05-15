@@ -1,0 +1,1 @@
+# hyrid-framework-nopcommerce

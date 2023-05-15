@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="NopCommerce">
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.ExtentTestListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> 
+	</listeners>
+
+	<parameter name="url" value="https://demo.nopcommerce.com/" />
+
+	<test name="Run on Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.nopcommerce.user.Feature_01_Register" />
+			<class name="com.nopcommerce.user.Feature_02_Login" />
+			<class name="com.nopcommerce.commons.Common_1_Register_Cookie" /> 
+			<class name="com.nopcommerce.user.Feature_03_My_Account" /> 
+			<class name="com.nopcommerce.user.Feature_04_Search" />
+		</classes>
+	</test>
+
+
+</suite>
+ 

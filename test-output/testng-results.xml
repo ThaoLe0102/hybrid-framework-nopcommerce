@@ -1,0 +1,1837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[2023-05-15 01:30:25,887] Register_01 - Step 01: Click to 'Register' link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:27,122] Register_01 - Step 02: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:27,496] Register - Step 03: Verify error message at FirstName textbox is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:27,566]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:27,566] Register - Step 04: Verify error message at LastName textbox is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:27,609]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:27,609] Register - Step 05: Verify error message at Email textbox is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:27,670]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:27,670] Register - Step 06: Verify error message at Password textbox is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:27,717]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:27,717] Register - Step 07: Verify error message at  Confirm Password textbox is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:27,794]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:27,800] Register_02 - Step 01: Click to Register link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:28,301] Register_02 - Step 02: Enter to FirstName textbox with value automation
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:28,450] Register_02 - Step 03: Enter to LastName textbox with value FC
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:28,568] Register_02 - Step 04: Enter to Invalid Email textbox with value abc@123
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:28,687] Register_02 - Step 05: Enter to Password textbox with value abc1234
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:28,792] Register_02 - Step 06: Enter to Confirm Password textbox with value abc1234
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:28,892] Register_02 - Step 06: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:29,381] Register_02 - Step 05: Verify error message at Email textbox is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:29,500]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:29,503] Register_03 - Step 01: Navigate to 'Register' Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:29,938] Register_03 - Step 02: Enter to Firstname textbox with value is'automation'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:30,084] Register_03 - Step 03: Enter to Lastname textbox with value is'FC'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:30,208] Register_03 - Step 04: Enter to Email textbox with value is'abc5344@gmail.com'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:30,337] Register_03 - Step 05: Enter to Password textbox with value is'abc1234'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:30,451] Register_03 - Step 06: Enter to ConfirmPassword textbox with value is'abc1234'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:30,563] Register_03 - Step 07: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:31,373] Register_03 - Step 08: Verify Register success message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:31,478]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:31,482] Register_04 - Step 01: Navigate to 'Register' Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:31,921] Register_04 - Step 02: Enter to FirstName textbox with value automation
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:32,076] Register_04 - Step 03: Enter to LastName textbox with value FC
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:32,200] Register_04 - Step 04: Enter to Existing  Email textbox with value abc5344@gmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:32,318] Register_04 - Step 05: Enter to Password textbox with value abc1234
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:32,432] Register_04 - Step 06: Enter to Confirm Password textbox with value abc1234
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:32,522] Register_04 - Step 06: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:33,201] Register_04 - Step 05: Verify error existing Email message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:33,300]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:33,302] Register_05 - Step 01: Navigate to 'Register' Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:33,801] Register_05 - Step 02: Enter to FirstName textbox with value automation
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:33,957] Register_05 - Step 03: Enter to LastName textbox with value FC
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:34,075] Register_05 - Step 04: Enter to Existing  Email textbox with value abc5344@gmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:34,185] Register_05 - Step 05: Enter to Password textbox with value 1234
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:34,286] Register_05 - Step 06: Enter to Confirm Password textbox with value 1234
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:34,404] Register_05 - Step 06: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:34,721] Register_05 - Step 05: Verify error message at Password textbox is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:34,806]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:34,811] Register_06 - Step 01: Navigate to 'Register' Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:35,248] Register_06 - Step 02: Enter to FirstName textbox with value automation
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:35,409] Register_06 - Step 03: Enter to LastName textbox with value FC
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:35,540] Register_06 - Step 04: Enter to Existing  Email textbox with value abc5344@gmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:35,665] Register_06 - Step 05: Enter to Password textbox with value abc1234
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:35,756] Register_06 - Step 06: Enter to Confirm Password textbox with value 1234
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:35,866] Register_06 - Step 06: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:36,668] Register_06 - Step 05: Verify error message at Confirm Password textbox is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:36,725]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:36,728] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:36,728] Driver instance name = firefoxdriver: firefox on windows (b82c91d9-ac21-49cc-8fdb-b9d1ef73549d)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:42,981] Pre-condition - Step 01: Click to 'Login' link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:43,660] Pre-condition - Step 02: Add cookie and reload
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:48,040] Pre-condition - Step 03: Verify MyAccount link is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:48,131]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:48,132] Pre-condition - Step 04: Close success message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:51,437] My_Account_01 - Step 01: Click to My Account link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:52,447] My_Account_01 - Step 02: Choose Female Radio button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:52,755] My_Account_01 - Step 03: Input to FirstName Textbox with value = Jerry
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:52,896] My_Account_01 - Step 04: Input to LastName Textbox with value = Tom
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:53,021] My_Account_01 - Step 05: Choose Day dropdown with value = 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:53,349] My_Account_01 - Step 06: Choose Day dropdown with value = July
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:53,682] My_Account_01 - Step 07: Choose Day dropdown with value = 1997
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:54,029] My_Account_01 - Step 08: Input to Email Textbox with value = automation123@gmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:54,167] My_Account_01 - Step 09: Input to Company Name Textbox with value = American
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:54,291] My_Account_01 - Step 10: Click to 'Save' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:56,781] My_Account_01 - Step 11: Verify status of Radio Button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:56,866]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:56,866] My_Account_01 - Step 12: Verify value text of FirstName Textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:56,948]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:56,948] My_Account_01 - Step 13: Verify value text of LastName Textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:57,025]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:57,026] My_Account_01 - Step 14: Verify value text of Day Dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:57,154]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:57,154] My_Account_01 - Step 15: Verify value text of Month Dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:57,251]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:57,251] My_Account_01 - Step 16: Verify value text of Year Dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:57,564]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:57,564] My_Account_01 - Step 17: Verify value text of Email Textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:57,630]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:57,630] My_Account_01 - Step 18: Verify value text of Company Name Textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:57,690]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:57,693] My_Account_02 - Step 01: Click to Address link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:30:58,173] My_Account_02 - Step 02: Click to 'Add new' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:00,676] My_Account_02 - Step 03: Input to FirstName Textbox with value = Jerry
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:00,818] My_Account_02 - Step 04: Input to LastName Textbox with value = Tom
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:00,947] My_Account_02 - Step 05: Input to Email Textbox with value = automation123@gmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:01,080] My_Account_02 - Step 06: Input to Company Name Textbox with value = American
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:01,190] My_Account_02 - Step 07: Choose Country dropdown with value = Viet Nam
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:01,524] My_Account_02 - Step 08: Choose State / province dropdown with value = Other
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:01,622] My_Account_02 - Step 09: Input to City Textbox with value = Ha Noi
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:01,721] My_Account_02 - Step 10: Input to Address1 Textbox with value = 15 Truong Dinh
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:01,832] My_Account_02 - Step 11: Input to Address2 Textbox with value = 2 Pham Van Bach
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:01,944] My_Account_02 - Step 12: Input to Zip / postal code Textbox with value = 55000
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:02,054] My_Account_02 - Step 13: Input to Phone number Textbox with value = 012345678
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:02,150] My_Account_02 - Step 14: Input to Fax number Textbox with value = 097412345
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:02,262] My_Account_02 - Step 15: Click to 'Save' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,029] My_Account_02 - Step 16: Verify value text of FirstName and LastName
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,102]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,103] My_Account_02 - Step 18: Verify value text of Email 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,151]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,151] My_Account_02 - Step 19: Verify value text of Company Name
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,193]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,193] My_Account_02 - Step 20: Verify value text of Country 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,241]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,241] My_Account_02 - Step 22: Verify value text of City and Zip
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,285]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,285] My_Account_02 - Step 23: Verify value text of Address1
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,333]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,333] My_Account_02 - Step 24: Verify value text of Address2
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,379]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,379] My_Account_02 - Step 26: Verify value text of Phone number 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,428]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,428] My_Account_02 - Step 27: Verify value text of Fax number
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,489]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,491] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:05,491] Driver instance name = firefoxdriver: firefox on windows (4ec43256-fef8-4054-9926-aaf47c57838d)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:12,442] Pre-condition - Step 01: Navigate to 'Register' Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:13,576] Pre-condition - Step 02: Enter to Firstname textbox with value is'automation'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:13,734] Pre-condition - Step 03: Enter to Lastname textbox with value is'FC'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:13,833] Pre-condition - Step 04: Enter to Email textbox with value is'abc4483@gmail.com'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:13,966] Pre-condition - Step 05: Enter to Password textbox with value is'abc1234'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:14,060] Pre-condition - Step 06: Enter to ConfirmPassword textbox with value is'abc1234'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:14,164] Pre-condition - Step 07: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:14,967] Pre-condition - Step 08: Verify Register success message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:15,067]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:15,070] Login_01 - Step 01: Click to 'Login' link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:15,548] Login_01 - Step 02: Click to 'Login' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:15,909] Login_01 - Step 03: Verify error message at Email textbox is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:15,992]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:15,995] Login_02 - Step 01: Click to 'Login' link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:16,475] Login_02 - Step 02: Enter to Invalid Email textbox with value abc@123
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:16,610] Login_02 - Step 03: Enter to Password textbox with value abc1234
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:16,741] Login_02 - Step 04: Click to 'Login' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:17,248] Login_02 - Step 05: Verify Wrong Email message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:17,350]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:17,354] Login_03 - Step 01: Click to 'Login' link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:17,841] Login_03 - Step 02: Enter to Invalid Email textbox with value abc123@gmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:17,987] Login_03 - Step 03: Enter to Password textbox with value abc1234
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:18,111] Login_03 - Step 04: Click to 'Login' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:18,540] Login_03 - Step 05: Verify error login message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:18,625]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:18,628] Login_04 - Step 01: Click to 'Login' link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:19,102] Login_04 - Step 02: Not enter to Invalid Email textbox with value abc4483@gmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:19,246] Login_04 - Step 03: Click to 'Login' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:19,684] Login_04 - Step 04: Verify Wrong Email message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:19,796]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:19,798] Login_05 - Step 01: Click to 'Login' link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:20,284] Login_05 - Step 02: Enter to Invalid Email textbox with value abc4483@gmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:20,430] Login_05 - Step 03: Enter to Password textbox with value 1234
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:20,552] Login_05 - Step 04: Click to 'Login' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:21,123] Login_05 - Step 05: Verify Wrong Email message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:21,230]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:21,235] Login_05 - Step 01: Click to 'Login' link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:21,717] Login_05 - Step 02: Enter to Invalid Email textbox with value abc4483@gmail.com
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:21,924] Login_05 - Step 03: Enter to Password textbox with value abc1234
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:22,042] Login_05 - Step 04: Click to 'Login' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:24,743] Login_05 - Step 05: Verify My Account link is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:24,890]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:24,892] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:24,892] Driver instance name = firefoxdriver: firefox on windows (65058391-c3cd-4c18-bca2-387fe360a317)
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:33,919] Pre-condition - Step 01: Click to 'Login' link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:35,088] Pre-condition - Step 02: Add cookie and reload
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:39,692] Pre-condition - Step 03: Verify MyAccount link is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:39,813]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:39,814] Pre-condition - Step 04: Close success message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:43,104] Pre-condition - Step 05: Click to 'Search' link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:44,306] Search_01 - Step 01: Click to 'Search' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:44,856] Search_01 - Step 02: Verify Error Message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:44,953]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:44,955] Search_02 - Step 01: Input data that doesn't exist to Search textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:45,102] Search_02 - Step 02: Click to 'Search' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:45,620] Search_02 - Step 03: Verify Error Message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:45,718]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:45,720] Search_03 - Step 01: Input relative data to Search textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:45,857] Search_03 - Step 02: Click to 'Search' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:46,439] Search_03 - Step 03: Verify Number of dispayed product is 2
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:46,517]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:46,519] Search_04 - Step 01: Input absolute data to Search textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:46,662] Search_04 - Step 02: Click to 'Search' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:47,201] Search_04 - Step 03: Verify Number of dispayed product is 1
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:47,326]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:47,328] Search_05 - Step 01: Input valid data to Search textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:47,507] Search_05 - Step 02: Check to Advanced search checkbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:47,821] Search_05 - Step 03: Choose Catogory dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:48,134] Search_05 - Step 04: Click to 'Search' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:48,604] Search_05 - Step 05: Verify Error Message
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:48,706]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:48,708] Search_06 - Step 01: Input valid data to Search textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:48,855] Search_06 - Step 02: Check to Advanced search checkbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:48,936] Search_05 - Step 03: Choose Catogory dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:49,017] Search_06 - Step 02: Check to Automatically search sub categories checkbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:49,307] Search_05 - Step 04: Click to 'Search' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:49,807] Search_06 - Step 05: Verify Number of dispayed product is 1
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:49,899]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:49,900] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[2023-05-15 01:31:49,900] Driver instance name = firefoxdriver: firefox on windows (90b6f720-3360-4742-9277-aef89b26441d)
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-14T18:30:08Z" name="NopCommerce" finished-at="2023-05-14T18:31:51Z" duration-ms="102995">
+    <groups>
+    </groups>
+    <test started-at="2023-05-14T18:30:08Z" name="Run on Firefox" finished-at="2023-05-14T18:31:51Z" duration-ms="102995">
+      <class name="com.nopcommerce.commons.Common_1_Register_Cookie">
+        <test-method is-config="true" signature="Register(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.commons.Common_1_Register_Cookie@57bc27f5]" started-at="2023-05-14T18:30:08Z" name="Register" description=" Create new User for all class" finished-at="2023-05-14T18:30:20Z" duration-ms="12246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+      </class> <!-- com.nopcommerce.commons.Common_1_Register_Cookie -->
+      <class name="com.nopcommerce.user.Feature_04_Search">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Feature_04_Search@68c9d179]" started-at="2023-05-14T18:31:28Z" name="beforeClass" finished-at="2023-05-14T18:31:44Z" duration-ms="15990" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:33,919] Pre-condition - Step 01: Click to 'Login' link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:35,088] Pre-condition - Step 02: Add cookie and reload
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:39,692] Pre-condition - Step 03: Verify MyAccount link is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:39,813]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:39,814] Pre-condition - Step 04: Close success message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:43,104] Pre-condition - Step 05: Click to 'Search' link
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Search_01_Search_With_Empty_Data()[pri:0, instance:com.nopcommerce.user.Feature_04_Search@68c9d179]" started-at="2023-05-14T18:31:44Z" name="Search_01_Search_With_Empty_Data" finished-at="2023-05-14T18:31:44Z" duration-ms="648" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:44,306] Search_01 - Step 01: Click to 'Search' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:44,856] Search_01 - Step 02: Verify Error Message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:44,953]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search_01_Search_With_Empty_Data -->
+        <test-method signature="Search_02_Search_With_Data_That_Does_Not_Exist()[pri:0, instance:com.nopcommerce.user.Feature_04_Search@68c9d179]" started-at="2023-05-14T18:31:44Z" name="Search_02_Search_With_Data_That_Does_Not_Exist" finished-at="2023-05-14T18:31:45Z" duration-ms="764" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:44,955] Search_02 - Step 01: Input data that doesn't exist to Search textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:45,102] Search_02 - Step 02: Click to 'Search' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:45,620] Search_02 - Step 03: Verify Error Message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:45,718]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search_02_Search_With_Data_That_Does_Not_Exist -->
+        <test-method signature="Search_03_Search_With_Relative_Name()[pri:0, instance:com.nopcommerce.user.Feature_04_Search@68c9d179]" started-at="2023-05-14T18:31:45Z" name="Search_03_Search_With_Relative_Name" finished-at="2023-05-14T18:31:46Z" duration-ms="798" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:45,720] Search_03 - Step 01: Input relative data to Search textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:45,857] Search_03 - Step 02: Click to 'Search' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:46,439] Search_03 - Step 03: Verify Number of dispayed product is 2
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:46,517]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search_03_Search_With_Relative_Name -->
+        <test-method signature="Search_04_Search_With_Absolute_Name()[pri:0, instance:com.nopcommerce.user.Feature_04_Search@68c9d179]" started-at="2023-05-14T18:31:46Z" name="Search_04_Search_With_Absolute_Name" finished-at="2023-05-14T18:31:47Z" duration-ms="808" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:46,519] Search_04 - Step 01: Input absolute data to Search textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:46,662] Search_04 - Step 02: Click to 'Search' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:47,201] Search_04 - Step 03: Verify Number of dispayed product is 1
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:47,326]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search_04_Search_With_Absolute_Name -->
+        <test-method signature="Search_05_Search_Advance_With_Parent_Categories()[pri:0, instance:com.nopcommerce.user.Feature_04_Search@68c9d179]" started-at="2023-05-14T18:31:47Z" name="Search_05_Search_Advance_With_Parent_Categories" finished-at="2023-05-14T18:31:48Z" duration-ms="1380" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:47,328] Search_05 - Step 01: Input valid data to Search textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:47,507] Search_05 - Step 02: Check to Advanced search checkbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:47,821] Search_05 - Step 03: Choose Catogory dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:48,134] Search_05 - Step 04: Click to 'Search' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:48,604] Search_05 - Step 05: Verify Error Message
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:48,706]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search_05_Search_Advance_With_Parent_Categories -->
+        <test-method signature="Search_06_Search_Advance_With_Sub_Categories()[pri:0, instance:com.nopcommerce.user.Feature_04_Search@68c9d179]" started-at="2023-05-14T18:31:48Z" name="Search_06_Search_Advance_With_Sub_Categories" finished-at="2023-05-14T18:31:49Z" duration-ms="1191" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:48,708] Search_06 - Step 01: Input valid data to Search textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:48,855] Search_06 - Step 02: Check to Advanced search checkbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:48,936] Search_05 - Step 03: Choose Catogory dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:49,017] Search_06 - Step 02: Check to Automatically search sub categories checkbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:49,307] Search_05 - Step 04: Click to 'Search' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:49,807] Search_06 - Step 05: Verify Number of dispayed product is 1
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:49,899]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Search_06_Search_Advance_With_Sub_Categories -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Feature_04_Search@68c9d179]" started-at="2023-05-14T18:31:49Z" name="afterClass" finished-at="2023-05-14T18:31:51Z" duration-ms="1349" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:49,900] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:49,900] Driver instance name = firefoxdriver: firefox on windows (90b6f720-3360-4742-9277-aef89b26441d)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.user.Feature_04_Search -->
+      <class name="com.nopcommerce.user.Feature_03_My_Account">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Feature_03_My_Account@5e7cd6cc]" started-at="2023-05-14T18:30:37Z" name="beforeClass" finished-at="2023-05-14T18:30:51Z" duration-ms="13619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:30:42,981] Pre-condition - Step 01: Click to 'Login' link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:43,660] Pre-condition - Step 02: Add cookie and reload
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:48,040] Pre-condition - Step 03: Verify MyAccount link is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:48,131]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:48,132] Pre-condition - Step 04: Close success message
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="My_Account_01_Customer_Info()[pri:0, instance:com.nopcommerce.user.Feature_03_My_Account@5e7cd6cc]" started-at="2023-05-14T18:30:51Z" name="My_Account_01_Customer_Info" finished-at="2023-05-14T18:30:57Z" duration-ms="6254" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:30:51,437] My_Account_01 - Step 01: Click to My Account link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:52,447] My_Account_01 - Step 02: Choose Female Radio button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:52,755] My_Account_01 - Step 03: Input to FirstName Textbox with value = Jerry
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:52,896] My_Account_01 - Step 04: Input to LastName Textbox with value = Tom
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:53,021] My_Account_01 - Step 05: Choose Day dropdown with value = 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:53,349] My_Account_01 - Step 06: Choose Day dropdown with value = July
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:53,682] My_Account_01 - Step 07: Choose Day dropdown with value = 1997
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:54,029] My_Account_01 - Step 08: Input to Email Textbox with value = automation123@gmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:54,167] My_Account_01 - Step 09: Input to Company Name Textbox with value = American
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:54,291] My_Account_01 - Step 10: Click to 'Save' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:56,781] My_Account_01 - Step 11: Verify status of Radio Button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:56,866]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:56,866] My_Account_01 - Step 12: Verify value text of FirstName Textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:56,948]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:56,948] My_Account_01 - Step 13: Verify value text of LastName Textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:57,025]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:57,026] My_Account_01 - Step 14: Verify value text of Day Dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:57,154]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:57,154] My_Account_01 - Step 15: Verify value text of Month Dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:57,251]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:57,251] My_Account_01 - Step 16: Verify value text of Year Dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:57,564]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:57,564] My_Account_01 - Step 17: Verify value text of Email Textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:57,630]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:57,630] My_Account_01 - Step 18: Verify value text of Company Name Textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:57,690]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- My_Account_01_Customer_Info -->
+        <test-method signature="My_Account_02_Address()[pri:0, instance:com.nopcommerce.user.Feature_03_My_Account@5e7cd6cc]" started-at="2023-05-14T18:30:57Z" name="My_Account_02_Address" finished-at="2023-05-14T18:31:05Z" duration-ms="7797" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:30:57,693] My_Account_02 - Step 01: Click to Address link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:58,173] My_Account_02 - Step 02: Click to 'Add new' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:00,676] My_Account_02 - Step 03: Input to FirstName Textbox with value = Jerry
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:00,818] My_Account_02 - Step 04: Input to LastName Textbox with value = Tom
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:00,947] My_Account_02 - Step 05: Input to Email Textbox with value = automation123@gmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:01,080] My_Account_02 - Step 06: Input to Company Name Textbox with value = American
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:01,190] My_Account_02 - Step 07: Choose Country dropdown with value = Viet Nam
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:01,524] My_Account_02 - Step 08: Choose State / province dropdown with value = Other
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:01,622] My_Account_02 - Step 09: Input to City Textbox with value = Ha Noi
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:01,721] My_Account_02 - Step 10: Input to Address1 Textbox with value = 15 Truong Dinh
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:01,832] My_Account_02 - Step 11: Input to Address2 Textbox with value = 2 Pham Van Bach
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:01,944] My_Account_02 - Step 12: Input to Zip / postal code Textbox with value = 55000
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:02,054] My_Account_02 - Step 13: Input to Phone number Textbox with value = 012345678
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:02,150] My_Account_02 - Step 14: Input to Fax number Textbox with value = 097412345
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:02,262] My_Account_02 - Step 15: Click to 'Save' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,029] My_Account_02 - Step 16: Verify value text of FirstName and LastName
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,102]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,103] My_Account_02 - Step 18: Verify value text of Email 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,151]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,151] My_Account_02 - Step 19: Verify value text of Company Name
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,193]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,193] My_Account_02 - Step 20: Verify value text of Country 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,241]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,241] My_Account_02 - Step 22: Verify value text of City and Zip
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,285]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,285] My_Account_02 - Step 23: Verify value text of Address1
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,333]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,333] My_Account_02 - Step 24: Verify value text of Address2
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,379]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,379] My_Account_02 - Step 26: Verify value text of Phone number 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,428]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,428] My_Account_02 - Step 27: Verify value text of Fax number
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,489]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- My_Account_02_Address -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Feature_03_My_Account@5e7cd6cc]" started-at="2023-05-14T18:31:05Z" name="afterClass" finished-at="2023-05-14T18:31:06Z" duration-ms="1345" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,491] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:05,491] Driver instance name = firefoxdriver: firefox on windows (4ec43256-fef8-4054-9926-aaf47c57838d)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.user.Feature_03_My_Account -->
+      <class name="com.nopcommerce.user.Feature_01_Register">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Feature_01_Register@5fb759d6]" started-at="2023-05-14T18:30:20Z" name="beforeClass" finished-at="2023-05-14T18:30:25Z" duration-ms="5358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Register_01_Empty_Data()[pri:0, instance:com.nopcommerce.user.Feature_01_Register@5fb759d6]" started-at="2023-05-14T18:30:25Z" name="Register_01_Empty_Data" finished-at="2023-05-14T18:30:27Z" duration-ms="1919" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:30:25,887] Register_01 - Step 01: Click to 'Register' link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:27,122] Register_01 - Step 02: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:27,496] Register - Step 03: Verify error message at FirstName textbox is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:27,566]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:27,566] Register - Step 04: Verify error message at LastName textbox is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:27,609]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:27,609] Register - Step 05: Verify error message at Email textbox is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:27,670]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:27,670] Register - Step 06: Verify error message at Password textbox is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:27,717]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:27,717] Register - Step 07: Verify error message at  Confirm Password textbox is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:27,794]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_01_Empty_Data -->
+        <test-method signature="Register_02_Invalid_Email()[pri:0, instance:com.nopcommerce.user.Feature_01_Register@5fb759d6]" started-at="2023-05-14T18:30:27Z" name="Register_02_Invalid_Email" finished-at="2023-05-14T18:30:29Z" duration-ms="1702" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:30:27,800] Register_02 - Step 01: Click to Register link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:28,301] Register_02 - Step 02: Enter to FirstName textbox with value automation
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:28,450] Register_02 - Step 03: Enter to LastName textbox with value FC
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:28,568] Register_02 - Step 04: Enter to Invalid Email textbox with value abc@123
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:28,687] Register_02 - Step 05: Enter to Password textbox with value abc1234
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:28,792] Register_02 - Step 06: Enter to Confirm Password textbox with value abc1234
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:28,892] Register_02 - Step 06: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:29,381] Register_02 - Step 05: Verify error message at Email textbox is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:29,500]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_02_Invalid_Email -->
+        <test-method signature="Register_03_Success()[pri:0, instance:com.nopcommerce.user.Feature_01_Register@5fb759d6]" started-at="2023-05-14T18:30:29Z" name="Register_03_Success" finished-at="2023-05-14T18:30:31Z" duration-ms="1976" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:30:29,503] Register_03 - Step 01: Navigate to 'Register' Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:29,938] Register_03 - Step 02: Enter to Firstname textbox with value is'automation'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:30,084] Register_03 - Step 03: Enter to Lastname textbox with value is'FC'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:30,208] Register_03 - Step 04: Enter to Email textbox with value is'abc5344@gmail.com'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:30,337] Register_03 - Step 05: Enter to Password textbox with value is'abc1234'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:30,451] Register_03 - Step 06: Enter to ConfirmPassword textbox with value is'abc1234'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:30,563] Register_03 - Step 07: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:31,373] Register_03 - Step 08: Verify Register success message is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:31,478]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_03_Success -->
+        <test-method signature="Register_04_Existing_Email()[pri:0, instance:com.nopcommerce.user.Feature_01_Register@5fb759d6]" started-at="2023-05-14T18:30:31Z" name="Register_04_Existing_Email" finished-at="2023-05-14T18:30:33Z" duration-ms="1820" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:30:31,482] Register_04 - Step 01: Navigate to 'Register' Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:31,921] Register_04 - Step 02: Enter to FirstName textbox with value automation
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:32,076] Register_04 - Step 03: Enter to LastName textbox with value FC
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:32,200] Register_04 - Step 04: Enter to Existing  Email textbox with value abc5344@gmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:32,318] Register_04 - Step 05: Enter to Password textbox with value abc1234
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:32,432] Register_04 - Step 06: Enter to Confirm Password textbox with value abc1234
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:32,522] Register_04 - Step 06: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:33,201] Register_04 - Step 05: Verify error existing Email message is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:33,300]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_04_Existing_Email -->
+        <test-method signature="Register_05_Password_Less_Than_6_Charts()[pri:0, instance:com.nopcommerce.user.Feature_01_Register@5fb759d6]" started-at="2023-05-14T18:30:33Z" name="Register_05_Password_Less_Than_6_Charts" finished-at="2023-05-14T18:30:34Z" duration-ms="1506" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:30:33,302] Register_05 - Step 01: Navigate to 'Register' Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:33,801] Register_05 - Step 02: Enter to FirstName textbox with value automation
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:33,957] Register_05 - Step 03: Enter to LastName textbox with value FC
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:34,075] Register_05 - Step 04: Enter to Existing  Email textbox with value abc5344@gmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:34,185] Register_05 - Step 05: Enter to Password textbox with value 1234
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:34,286] Register_05 - Step 06: Enter to Confirm Password textbox with value 1234
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:34,404] Register_05 - Step 06: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:34,721] Register_05 - Step 05: Verify error message at Password textbox is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:34,806]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_05_Password_Less_Than_6_Charts -->
+        <test-method signature="Register_06_Invalid_Confirm_Password()[pri:0, instance:com.nopcommerce.user.Feature_01_Register@5fb759d6]" started-at="2023-05-14T18:30:34Z" name="Register_06_Invalid_Confirm_Password" finished-at="2023-05-14T18:30:36Z" duration-ms="1917" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:30:34,811] Register_06 - Step 01: Navigate to 'Register' Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:35,248] Register_06 - Step 02: Enter to FirstName textbox with value automation
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:35,409] Register_06 - Step 03: Enter to LastName textbox with value FC
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:35,540] Register_06 - Step 04: Enter to Existing  Email textbox with value abc5344@gmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:35,665] Register_06 - Step 05: Enter to Password textbox with value abc1234
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:35,756] Register_06 - Step 06: Enter to Confirm Password textbox with value 1234
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:35,866] Register_06 - Step 06: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:36,668] Register_06 - Step 05: Verify error message at Confirm Password textbox is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:36,725]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_06_Invalid_Confirm_Password -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Feature_01_Register@5fb759d6]" started-at="2023-05-14T18:30:36Z" name="afterClass" finished-at="2023-05-14T18:30:37Z" duration-ms="1090" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:30:36,728] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:30:36,728] Driver instance name = firefoxdriver: firefox on windows (b82c91d9-ac21-49cc-8fdb-b9d1ef73549d)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.user.Feature_01_Register -->
+      <class name="com.nopcommerce.user.Feature_02_Login">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Feature_02_Login@4b8d604b]" started-at="2023-05-14T18:31:06Z" name="beforeClass" finished-at="2023-05-14T18:31:15Z" duration-ms="8231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:12,442] Pre-condition - Step 01: Navigate to 'Register' Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:13,576] Pre-condition - Step 02: Enter to Firstname textbox with value is'automation'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:13,734] Pre-condition - Step 03: Enter to Lastname textbox with value is'FC'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:13,833] Pre-condition - Step 04: Enter to Email textbox with value is'abc4483@gmail.com'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:13,966] Pre-condition - Step 05: Enter to Password textbox with value is'abc1234'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:14,060] Pre-condition - Step 06: Enter to ConfirmPassword textbox with value is'abc1234'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:14,164] Pre-condition - Step 07: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:14,967] Pre-condition - Step 08: Verify Register success message is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:15,067]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Login_01_Empty_Data()[pri:0, instance:com.nopcommerce.user.Feature_02_Login@4b8d604b]" started-at="2023-05-14T18:31:15Z" name="Login_01_Empty_Data" finished-at="2023-05-14T18:31:15Z" duration-ms="924" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:15,070] Login_01 - Step 01: Click to 'Login' link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:15,548] Login_01 - Step 02: Click to 'Login' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:15,909] Login_01 - Step 03: Verify error message at Email textbox is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:15,992]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_01_Empty_Data -->
+        <test-method signature="Login_02_Invalid_Email()[pri:0, instance:com.nopcommerce.user.Feature_02_Login@4b8d604b]" started-at="2023-05-14T18:31:15Z" name="Login_02_Invalid_Email" finished-at="2023-05-14T18:31:17Z" duration-ms="1356" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:15,995] Login_02 - Step 01: Click to 'Login' link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:16,475] Login_02 - Step 02: Enter to Invalid Email textbox with value abc@123
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:16,610] Login_02 - Step 03: Enter to Password textbox with value abc1234
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:16,741] Login_02 - Step 04: Click to 'Login' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:17,248] Login_02 - Step 05: Verify Wrong Email message is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:17,350]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_02_Invalid_Email -->
+        <test-method signature="Login_03_Login_With_Unregistered_Email()[pri:0, instance:com.nopcommerce.user.Feature_02_Login@4b8d604b]" started-at="2023-05-14T18:31:17Z" name="Login_03_Login_With_Unregistered_Email" finished-at="2023-05-14T18:31:18Z" duration-ms="1273" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:17,354] Login_03 - Step 01: Click to 'Login' link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:17,841] Login_03 - Step 02: Enter to Invalid Email textbox with value abc123@gmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:17,987] Login_03 - Step 03: Enter to Password textbox with value abc1234
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:18,111] Login_03 - Step 04: Click to 'Login' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:18,540] Login_03 - Step 05: Verify error login message is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:18,625]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_03_Login_With_Unregistered_Email -->
+        <test-method signature="Login_04_Login_With_Existing_Email_And_Not_Input_To_Password()[pri:0, instance:com.nopcommerce.user.Feature_02_Login@4b8d604b]" started-at="2023-05-14T18:31:18Z" name="Login_04_Login_With_Existing_Email_And_Not_Input_To_Password" finished-at="2023-05-14T18:31:19Z" duration-ms="1169" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:18,628] Login_04 - Step 01: Click to 'Login' link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:19,102] Login_04 - Step 02: Not enter to Invalid Email textbox with value abc4483@gmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:19,246] Login_04 - Step 03: Click to 'Login' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:19,684] Login_04 - Step 04: Verify Wrong Email message is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:19,796]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_04_Login_With_Existing_Email_And_Not_Input_To_Password -->
+        <test-method signature="Login_05_Login_With_Existing_Email_And_Incorrect_Password()[pri:0, instance:com.nopcommerce.user.Feature_02_Login@4b8d604b]" started-at="2023-05-14T18:31:19Z" name="Login_05_Login_With_Existing_Email_And_Incorrect_Password" finished-at="2023-05-14T18:31:21Z" duration-ms="1433" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:19,798] Login_05 - Step 01: Click to 'Login' link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:20,284] Login_05 - Step 02: Enter to Invalid Email textbox with value abc4483@gmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:20,430] Login_05 - Step 03: Enter to Password textbox with value 1234
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:20,552] Login_05 - Step 04: Click to 'Login' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:21,123] Login_05 - Step 05: Verify Wrong Email message is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:21,230]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_05_Login_With_Existing_Email_And_Incorrect_Password -->
+        <test-method signature="Login_06_Login_Success()[pri:0, instance:com.nopcommerce.user.Feature_02_Login@4b8d604b]" started-at="2023-05-14T18:31:21Z" name="Login_06_Login_Success" finished-at="2023-05-14T18:31:24Z" duration-ms="3660" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:21,235] Login_05 - Step 01: Click to 'Login' link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:21,717] Login_05 - Step 02: Enter to Invalid Email textbox with value abc4483@gmail.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:21,924] Login_05 - Step 03: Enter to Password textbox with value abc1234
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:22,042] Login_05 - Step 04: Click to 'Login' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:24,743] Login_05 - Step 05: Verify My Account link is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:24,890]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_06_Login_Success -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Feature_02_Login@4b8d604b]" started-at="2023-05-14T18:31:24Z" name="afterClass" finished-at="2023-05-14T18:31:28Z" duration-ms="3424" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[2023-05-15 01:31:24,892] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[2023-05-15 01:31:24,892] Driver instance name = firefoxdriver: firefox on windows (65058391-c3cd-4c18-bca2-387fe360a317)
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.user.Feature_02_Login -->
+    </test> <!-- Run on Firefox -->
+  </suite> <!-- NopCommerce -->
+</testng-results>

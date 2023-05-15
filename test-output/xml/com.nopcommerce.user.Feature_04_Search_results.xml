@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Firefox"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.589">
+  <properties />
+  
+  
+            <testcase name="Search_05_Search_Advance_With_Parent_Categories" time="1.380" classname="com.nopcommerce.user.Feature_04_Search" />
+                <testcase name="Search_04_Search_With_Absolute_Name" time="0.808" classname="com.nopcommerce.user.Feature_04_Search" />
+                <testcase name="Search_01_Search_With_Empty_Data" time="0.648" classname="com.nopcommerce.user.Feature_04_Search" />
+                <testcase name="Search_03_Search_With_Relative_Name" time="0.798" classname="com.nopcommerce.user.Feature_04_Search" />
+                <testcase name="Search_06_Search_Advance_With_Sub_Categories" time="1.191" classname="com.nopcommerce.user.Feature_04_Search" />
+                <testcase name="Search_02_Search_With_Data_That_Does_Not_Exist" time="0.764" classname="com.nopcommerce.user.Feature_04_Search" />
+      
+</testsuite>
